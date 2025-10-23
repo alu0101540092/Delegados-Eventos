@@ -60,7 +60,7 @@ Cuando se activa:
 
 Scripts relacionados:
 
-- [ScoreManager.cs](Assets/Scripts/ScoreManager.cs)+
+- [ScoreManager.cs](Assets/Scripts/ScoreManager.cs)
 - [CollectibleShield.cs](Assets/Scripts/CollectibleShield.cs)
 - [CubeCollector.cs](Assets/Scripts/CubeCollector.cs)
 - [CubeMovement.cs](Assets/Scripts/CubeMovement.cs)
