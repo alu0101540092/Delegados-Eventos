@@ -72,3 +72,14 @@ El cubo puede recolectar escudos:
 - Escudos tipo 2 → +10 puntos
 
 ![Ejercicio 5](docs/gifs/exercise5.gif)
+
+## Ejercicio 6
+
+Scripts relacionados:
+
+- [ScoreManager.cs](Assets/Scripts/ScoreManager.cs)
+- [ScoreUI.cs](Assets/Scripts/ScoreUI.cs)
+
+Se añade una interfaz de usuario mediante un **Canvas** y un texto **TextMeshPro** que muestra la puntuación actual.
+
+![Ejercicio 6](docs/gifs/exercise6.gif)
