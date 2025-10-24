@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour
   private int score = 0;
 
   public event Action<int> OnScoreChanged;
+  public event Action OnRewardEarned;
 
   private void Awake()
   {
@@ -24,6 +25,11 @@ public class ScoreManager : MonoBehaviour
     score += points;
     Debug.Log($"Puntuación actual: {score}");
     OnScoreChanged?.Invoke(score);
+
+    if (score > 0 && score % 100 == 0)
+    {
+      OnRewardEarned?.Invoke();
+    }
   }
 
   public int GetScore()
