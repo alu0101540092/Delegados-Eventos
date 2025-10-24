@@ -83,3 +83,15 @@ Scripts relacionados:
 Se añade una interfaz de usuario mediante un **Canvas** y un texto **TextMeshPro** que muestra la puntuación actual.
 
 ![Ejercicio 6](docs/gifs/exercise6.gif)
+
+## Ejercicio 7
+
+Scripts relacionados:
+
+- [ScoreManager.cs](Assets/Scripts/ScoreManager.cs)
+- [ScoreUI.cs](Assets/Scripts/ScoreUI.cs)
+
+Se amplía la mecánica de puntuación para incluir **recompensas**:  
+cada 100 puntos, el jugador obtiene una recompensa que se muestra en la interfaz durante unos segundos.
+
+![Ejercicio 7](docs/gifs/exercise7.gif)
